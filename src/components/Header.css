@@ -1,20 +1,18 @@
+p{
+    color: aliceblue;
+    margin: 12px 12px 12px 12px;
+}
+
 .header {
     height: 60px;
     display: flex;
     align-items: center;
     background-color: #131921;
     position: sticky;
-    border-radius: 10px;
     top: 0;
     z-index: 100;
   }
   
-  .header__logo {
-    width: 100px;
-    object-fit: contain;
-    margin: 0 20px;
-    margin-top: 18px;
-  }
   
   .header__search {
     display: flex;

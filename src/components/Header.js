@@ -2,18 +2,14 @@ import React from 'react';
 import "./Header.css";
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
-import  "./images/dirtbike-logo.png"
+
 
 const Header = () => {
   return (
     <>
        <div className="header">
 
-       <img
-          className="header__logo"
-          src="./images/dirtbike-logo.png" alt="My logo"
-        />
-    
+        <p>Johnson's MotorSports</p>
 
     <div className="header__search">
       <input className="header__searchInput" type="text" />
@@ -33,13 +29,6 @@ const Header = () => {
           <span className="header__optionLineOne">Returns</span>
           <span className="header__optionLineTwo">& Orders</span>
         </div>
-      
-      
-
-      <div className="header__option">
-        <span className="header__optionLineOne">Your</span>
-        <span className="header__optionLineTwo">Prime</span>
-      </div>
 
       
         <div className="header__optionBasket">
