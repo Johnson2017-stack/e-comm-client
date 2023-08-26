@@ -15,7 +15,8 @@ import RedHelmet from "./images/red-helmet.jpg";
 import RedLeftMirror from "./images/red-left-mirror.jpg";
 import GasCap from "./images/replacement-gas-cap.jpg";
 import UnerviseralMirror from "./images/universal-set-mirrors.jpg";
-import V111 from "./images/v111-motor.jpg"
+import V111 from "./images/v111-motor.jpg";
+import Background from "./images/logo-background.png";
 
 
 const Home = () => {
@@ -24,21 +25,21 @@ const Home = () => {
     <div className="home__container">
       <img
         className="home__image"
-        src={ClutchLever}
+        src={Background}
         alt=""
       />
 
       <div className="home__row">
         <Product
           id="12321341"
-          title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
+          title="Chrome Clutch lever"
           price={11.96}
           rating={5}
           image={ClutchLever}
         />
         <Product
           id="49538094"
-          title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
+          title="Chrome Air Cleaner"
           price={239.0}
           rating={4}
           image={ChromeAir}
@@ -48,21 +49,21 @@ const Home = () => {
       <div className="home__row">
         <Product
           id="4903850"
-          title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
+          title="Air cleaner for harley"
           price={199.99}
           rating={3}
           image={Harleyair}
         />
         <Product
           id="23445930"
-          title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
+          title="K&N Air filter"
           price={98.99}
           rating={5}
           image={KNAir}
         />
         <Product
           id="3254354345"
-          title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
+          title="Bi colored helmet"
           price={598.99}
           rating={4}
           image={BiHelmet}
@@ -72,21 +73,21 @@ const Home = () => {
       <div className="home__row">
         <Product
           id="4903850"
-          title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
+          title="v124 harley replica motor"
           price={199.99}
           rating={3}
           image={V124}
         />
         <Product
           id="23445930"
-          title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
+          title="Chrome mirror with gold inlay"
           price={98.99}
           rating={5}
           image={GoldMirror}
         />
         <Product
           id="3254354345"
-          title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
+          title="Chrome hand brake"
           price={598.99}
           rating={4}
           image={HandBrake}
@@ -96,21 +97,21 @@ const Home = () => {
       <div className="home__row">
         <Product
           id="4903850"
-          title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
+          title="Chrome Master cylinder"
           price={199.99}
           rating={3}
           image={MasterCylinder}
         />
         <Product
           id="23445930"
-          title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
+          title="Red helmet"
           price={98.99}
           rating={5}
           image={RedHelmet}
         />
         <Product
           id="3254354345"
-          title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
+          title="Left mirror color Red"
           price={598.99}
           rating={4}
           image={RedLeftMirror}
@@ -120,21 +121,21 @@ const Home = () => {
       <div className="home__row">
         <Product
           id="4903850"
-          title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
+          title="Chrome gas cap"
           price={199.99}
           rating={3}
           image={GasCap}
         />
         <Product
           id="23445930"
-          title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
+          title="Universal mirror set"
           price={98.99}
           rating={5}
           image={UnerviseralMirror}
         />
         <Product
           id="3254354345"
-          title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
+          title="V111 harley replica motor"
           price={598.99}
           rating={4}
           image={V111}
@@ -145,7 +146,7 @@ const Home = () => {
       <div className="home__row">
         <Product
           id="90829332"
-          title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
+          title="Black helmet"
           price={1094.98}
           rating={4}
           image={BlackHelmet}
