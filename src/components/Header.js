@@ -9,7 +9,7 @@ const Header = () => {
     <>
        <div className="header">
 
-        <p>Johnson's MotorSports</p>
+        <p id="LOGO">Johnson's MotorSports</p>
 
     <div className="header__search">
       <input className="header__searchInput" type="text" />

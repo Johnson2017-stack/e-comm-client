@@ -26,21 +26,21 @@ const Home = () => {
       <img
         className="home__image"
         src={Background}
-        alt=""
+        alt="sprockets"
       />
 
       <div className="home__row">
         <Product
           id="12321341"
           title="Chrome Clutch lever"
-          price={11.96}
+          price={50}
           rating={5}
           image={ClutchLever}
         />
         <Product
           id="49538094"
           title="Chrome Air Cleaner"
-          price={239.0}
+          price={250.99}
           rating={4}
           image={ChromeAir}
         />
@@ -50,7 +50,7 @@ const Home = () => {
         <Product
           id="4903850"
           title="Air cleaner for harley"
-          price={199.99}
+          price={300.00}
           rating={3}
           image={Harleyair}
         />
@@ -105,14 +105,14 @@ const Home = () => {
         <Product
           id="23445930"
           title="Red helmet"
-          price={98.99}
+          price={129.99}
           rating={5}
           image={RedHelmet}
         />
         <Product
           id="3254354345"
           title="Left mirror color Red"
-          price={598.99}
+          price={59.99}
           rating={4}
           image={RedLeftMirror}
         />
@@ -122,21 +122,21 @@ const Home = () => {
         <Product
           id="4903850"
           title="Chrome gas cap"
-          price={199.99}
+          price={45.55}
           rating={3}
           image={GasCap}
         />
         <Product
           id="23445930"
           title="Universal mirror set"
-          price={98.99}
+          price={109.99}
           rating={5}
           image={UnerviseralMirror}
         />
         <Product
           id="3254354345"
           title="V111 harley replica motor"
-          price={598.99}
+          price={699.99}
           rating={4}
           image={V111}
         />
@@ -147,7 +147,7 @@ const Home = () => {
         <Product
           id="90829332"
           title="Black helmet"
-          price={1094.98}
+          price={139.95}
           rating={4}
           image={BlackHelmet}
         />
