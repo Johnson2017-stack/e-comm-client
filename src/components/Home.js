@@ -34,6 +34,7 @@ const Home = () => {
           id="12321341"
           title="Chrome Clutch lever"
           price={50}
+          quantity={3}
           rating={5}
           image={ClutchLever}
         />
@@ -41,6 +42,7 @@ const Home = () => {
           id="49538094"
           title="Chrome Air Cleaner"
           price={250.99}
+          quantity={3}
           rating={4}
           image={ChromeAir}
         />
@@ -51,6 +53,7 @@ const Home = () => {
           id="4903850"
           title="Air cleaner for harley"
           price={300.00}
+          quantity={3}
           rating={3}
           image={Harleyair}
         />
@@ -58,6 +61,7 @@ const Home = () => {
           id="23445930"
           title="K&N Air filter"
           price={98.99}
+          quantity={3}
           rating={5}
           image={KNAir}
         />
@@ -65,6 +69,7 @@ const Home = () => {
           id="3254354345"
           title="Bi colored helmet"
           price={598.99}
+          quantity={3}
           rating={4}
           image={BiHelmet}
         />
@@ -75,6 +80,7 @@ const Home = () => {
           id="4903850"
           title="v124 harley replica motor"
           price={199.99}
+          quantity={3}
           rating={3}
           image={V124}
         />
@@ -82,6 +88,7 @@ const Home = () => {
           id="23445930"
           title="Chrome mirror with gold inlay"
           price={98.99}
+          quantity={3}
           rating={5}
           image={GoldMirror}
         />
@@ -89,6 +96,7 @@ const Home = () => {
           id="3254354345"
           title="Chrome hand brake"
           price={598.99}
+          quantity={3}
           rating={4}
           image={HandBrake}
         />
@@ -99,6 +107,7 @@ const Home = () => {
           id="4903850"
           title="Chrome Master cylinder"
           price={199.99}
+          quantity={3}
           rating={3}
           image={MasterCylinder}
         />
@@ -106,6 +115,7 @@ const Home = () => {
           id="23445930"
           title="Red helmet"
           price={129.99}
+          quantity={3}
           rating={5}
           image={RedHelmet}
         />
@@ -113,6 +123,7 @@ const Home = () => {
           id="3254354345"
           title="Left mirror color Red"
           price={59.99}
+          quantity={3}
           rating={4}
           image={RedLeftMirror}
         />
@@ -123,13 +134,16 @@ const Home = () => {
           id="4903850"
           title="Chrome gas cap"
           price={45.55}
+          quantity={3}
           rating={3}
           image={GasCap}
+          
         />
         <Product
           id="23445930"
           title="Universal mirror set"
           price={109.99}
+          quantity={3}
           rating={5}
           image={UnerviseralMirror}
         />
@@ -137,6 +151,7 @@ const Home = () => {
           id="3254354345"
           title="V111 harley replica motor"
           price={699.99}
+          quantity={3}
           rating={4}
           image={V111}
         />
@@ -148,6 +163,7 @@ const Home = () => {
           id="90829332"
           title="Black helmet"
           price={139.95}
+          quantity={3}
           rating={4}
           image={BlackHelmet}
         />

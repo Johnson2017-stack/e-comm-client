@@ -31,7 +31,7 @@
   .header__searchIcon {
     padding: 5px;
     height: 22px !important;
-    background-color: #cd4242;
+    background-color: #fb8226ed;
   }
   
   .header__optionLineOne {
@@ -46,7 +46,7 @@
   .header__optionBasket {
     display: flex;
     align-items: center;
-    color: #cd4242;
+    color: #fb8226ed;
   }
   
   .header__basketCount {

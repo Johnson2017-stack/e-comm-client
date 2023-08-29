@@ -10,7 +10,7 @@ const Header = () => {
   const [{ basket, user }, dispatch] = useStateValue();
   return (
     <>
-       <div className="header">
+      <div className="header">
         <Link to='/'>
           <p id="LOGO">Johnson's MotorSports</p>
         </Link>
@@ -21,11 +21,12 @@ const Header = () => {
     </div>
 
     <div className="header__nav">
-      
+      <Link to={!user && '/api/login'}>
         <div className="header__option">
-          <span className="header__optionLineOne">Hello Guest</span>
-          <span className="header__optionLineTwo">Sign In</span>
+        <span className="header__optionLineOne">Hello {!user ? 'Guest' : user.email}</span>
+            <span className="header__optionLineTwo">{user ? 'Sign Out' : 'Sign In'}</span>
         </div>
+      </Link>
       
 
       
