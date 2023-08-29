@@ -4,10 +4,11 @@ import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import { Link } from "react-router-dom";
 import { useStateValue } from './StateProvider';
+import Checkout from "./Checkout"
 
 
 const Header = () => {
-  const [{ basket, user }, dispatch] = useStateValue();
+  const [{ basket, user }] = useStateValue();
   return (
     <>
       <div className="header">
@@ -40,8 +41,10 @@ const Header = () => {
           <AddShoppingCartIcon />
           <span className="header__optionLineTwo header__basketCount">
             {basket?.length}
+
           </span>
         </div>
+        {Checkout}
         </Link>
     </div>
   </div>
