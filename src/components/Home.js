@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Home.css"
+import "./styles/Home.css"
 import Product from "./Product.js";
 import ClutchLever from "./images/clutch-lever.jpg";
 import ChromeAir from "./images/air-cleaner-chrome.jpg";

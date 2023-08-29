@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Subtotal.css";
+import "./styles/Subtotal.css";
 import { useStateValue } from "./StateProvider";
 import { getBasketTotal } from './reducer';
 import { NumberFormatBase } from 'react-number-format';
@@ -15,7 +15,7 @@ const Subtotal = () => {
         renderText={(formattedValue) => (
           <>
             <p>
-              Subtotal ({basket.length} items): <strong>{formattedValue}</strong>
+              Subtotal ({basket.length} items): <strong>${formattedValue}</strong>
             </p>
           </>
         )}
