@@ -3,6 +3,7 @@ import "./styles/Subtotal.css";
 import { useStateValue } from "./StateProvider";
 import { getBasketTotal } from './reducer';
 import { NumberFormatBase } from 'react-number-format';
+import { Link } from 'react-router-dom'
 
 
 const Subtotal = () => {
@@ -27,7 +28,9 @@ const Subtotal = () => {
      />
       
 
-<button>Proceed to Checkout</button>
+<Link to='/payment'>
+  <button>Proceed to Checkout</button>
+  </Link>
     </div>
   )
 }
