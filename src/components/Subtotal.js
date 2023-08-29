@@ -2,28 +2,29 @@ import React from 'react';
 import "./Subtotal.css";
 import { useStateValue } from "./StateProvider";
 import { getBasketTotal } from './reducer';
+import { NumberFormatBase } from 'react-number-format';
 
 
 const Subtotal = () => {
   
     const [{ basket }, dispatch] = useStateValue();
 
-    function currencyFormat(num) {
-        return '$' + num.toFixed(2) 
-     } 
-
   return (
     <div className='subtotal'>
-        <div className='currencyFormat'>
-        {(value) => (
+     <NumberFormatBase
+        renderText={(formattedValue) => (
           <>
             <p>
-              Subtotal ({basket.length}items ): <strong>{value}</strong>
+              Subtotal ({basket.length} items): <strong>{formattedValue}</strong>
             </p>
           </>
         )}
-        value={getBasketTotal(basket).tofixed(2)} 
-      </div>
+        decimalScale={2}
+        value={getBasketTotal(basket)} 
+        displayType={"text"}
+        thousandSeparator={true}
+        prefix={"$"}
+     />
       
 
 <button>Proceed to Checkout</button>

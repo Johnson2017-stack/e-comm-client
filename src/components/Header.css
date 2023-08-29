@@ -44,6 +44,8 @@
   }
   
   .header__optionBasket {
+    margin-left: 3rem;
+    margin-right: 2rem;
     display: flex;
     align-items: center;
     color: #fb8226ed;
