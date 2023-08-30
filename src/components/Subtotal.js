@@ -1,38 +1,36 @@
-import React from 'react';
+import React from "react";
 import "./styles/Subtotal.css";
 import { useStateValue } from "./StateProvider";
-import { getBasketTotal } from './reducer';
-import { NumberFormatBase } from 'react-number-format';
-import { Link } from 'react-router-dom'
-
+import { getBasketTotal } from "./reducer";
+import { NumberFormatBase } from "react-number-format";
+import { Link } from "react-router-dom";
 
 const Subtotal = () => {
-  
-    const [{ basket }, dispatch] = useStateValue();
+  const [{ basket }, dispatch] = useStateValue();
 
   return (
-    <div className='subtotal'>
-     <NumberFormatBase
+    <div className="subtotal">
+      <NumberFormatBase
         renderText={(formattedValue) => (
           <>
             <p>
-              Subtotal ({basket.length} items): <strong>${formattedValue}</strong>
+              Subtotal ({basket.length} items):{" "}
+              <strong>${formattedValue}</strong>
             </p>
           </>
         )}
         decimalScale={2}
-        value={getBasketTotal(basket)} 
+        value={getBasketTotal(basket)}
         displayType={"text"}
         thousandSeparator={true}
         prefix={"$"}
-     />
-      
+      />
 
-<Link to='/payment'>
-  <button>Proceed to Checkout</button>
-  </Link>
+      <Link to="/payment">
+        <button>Proceed to Checkout</button>
+      </Link>
     </div>
-  )
-}
+  );
+};
 
-export default Subtotal
+export default Subtotal;
