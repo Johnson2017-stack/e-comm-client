@@ -7,7 +7,7 @@ import { useStateValue } from "./StateProvider";
 import Checkout from "./Checkout";
 
 const Header = () => {
-  const [{ basket, user }] = useStateValue();
+  const [{ basket }] = useStateValue();
   return (
     <>
       <div className="header">
